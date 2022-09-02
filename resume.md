@@ -258,7 +258,7 @@
 # Education
 
 ## University of applied sciences - Bachelor of ICT in Software Engineering
-  * [Hogeschool van Utrecht][education hu] (Netherlands), September 2001 – 31 August 2005
+  * [University of Applied Sciences Utrecht][education hu] (Netherlands), September 2001 – 31 August 2005
 
     Subjects included
       : application development in Java, principle of computer systems and
@@ -346,6 +346,6 @@
 [project gitlab]: http://gitlab.com/gbraad/ "GitLab"
 [project jor1k]: http://jor1k.com/ "Jor1K"
 
-[education hu]: http://hu.nl/ "Hogeschool Utrecht"
+[education hu]: http://www.internationalhu.com/ "University of Applied Sciences Utrecht"
 [education tce]: http://tce.nl/ "Technisch College Ede"
 [education ac]: http://aventus.nl "Aventus (formerly Apeldoorns College)"
