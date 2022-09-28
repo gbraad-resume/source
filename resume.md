@@ -5,8 +5,6 @@
 
 ![Photo][personal photo]
 
-  * Chinese name
-    : 吉拉德
   * Date of Birth
     : 22 February, 1981
   * Nationality
@@ -64,11 +62,12 @@
 # Employment History
 
 
-## Principal Software Engineer
+## Principal Software Engineer, Associate Engineering Manager
   * [Red Hat][employer redhat], January 2017 - present
 
     Working on tools to improve the workflow for development with containers,
-    OpenShift, and Kubernetes.
+    OpenShift, and Kubernetes using native virtualization on Linux, macOS and
+    Windows.
 
 
 ## Technical Director
