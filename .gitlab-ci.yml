@@ -1,10 +1,11 @@
 stages:
-  - build
+  - page
+  - pdf
   - deploy
 
 build_page:
-  image: registry.gitlab.com/gbraad/docugen:latest
-  stage: build
+  image: ghcr.io/gbraad/docugen:latest
+  stage: page
   script:
     - git clone https://gitlab.com/gbraad/document-generation-assets.git assets --depth 1
     - mkdir public
@@ -21,8 +22,21 @@ build_page:
   only:
     - master
 
+build_pdf:
+  image: ghcr.io/gbraad/phantomjs:latest
+  stage: pdf
+  script:
+    - phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume.pdf 0.7
+    - phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume-A5.pdf 0.7 A5
+    - phantomjs ./assets/scripts/topdf.js ./public/recommendations.html ./public/recommendations.pdf 0.7
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+
 publish:
-  image: registry.gitlab.com/gbraad/docker:git
+  image: ghcr.io/gbraad/devenv/base:37
   stage: deploy
   script:
     - cd public
