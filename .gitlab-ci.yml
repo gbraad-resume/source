@@ -13,9 +13,6 @@ build_page:
     - pandoc -t html5 --template ./assets/templates/resume-template.html --standalone --section-divs -o ./public/resume.html ./resume.md
     - pandoc -t html5 --template ./assets/templates/resume-template.html --standalone --section-divs -o ./public/recommendations.html ./recommendations.md
     - cp ./gbraad-fc.png ./public/
-    - phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume.pdf 0.7
-    - phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume-A5.pdf 0.7 A5
-    - phantomjs ./assets/scripts/topdf.js ./public/recommendations.html ./public/recommendations.pdf 0.7
   artifacts:
     paths:
       - public
