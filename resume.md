@@ -15,8 +15,6 @@
     :  
      Website [http://gbraad.nl/][personal website]  
      LinkedIn [http://linkedin.com/in/gbraad][linkedin profile]
-  * Phone
-    : +86 186 0132 7445
 
 
 ## Background
