@@ -60,7 +60,7 @@
 # Employment History
 
 
-## Principal Software Engineer, Associate Engineering Manager
+## Manager, Software Engineering and Principal Software Engineer 
   * [Red Hat][employer redhat], January 2017 - present
 
     Working on tools to improve the workflow for development with containers,
