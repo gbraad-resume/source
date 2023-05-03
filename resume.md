@@ -66,6 +66,14 @@
     Working on tools to improve the workflow for development with containers,
     OpenShift, and Kubernetes using native virtualization on Linux, macOS and
     Windows.
+    
+    Managing the teams for:
+    * CRC runs Containers (productized as OpenShift Local) which brings a minimal OpenShift Container Platform 4 cluster and Podman container runtime to your local computer for development purposes.
+    * JKube; Build and Deploy Java applications on Kubernetes
+
+    Activities
+    * Work with product managers and customers to determine the priority of new features.
+    * Manage a team of software engineers through coaching, training, and mentoring team members, overseeing code reviews, leading technical planning, and running other important team meetings.
 
 
 ## Technical Director
