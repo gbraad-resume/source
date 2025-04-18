@@ -1,4 +1,4 @@
-# _**Gerard Braad**_
+<h1 align="center"><b>Gerard Braad</b></h1>
 
 
 ## Personal information

@@ -1,0 +1,87 @@
+name: Resume - convert from markdown to HTML and PDF
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch resume source
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Fetch documemt generation assets
+        uses: actions/checkout@v4
+        with:
+          repository: 'gbraad-docs/document-generation-assets'
+          path: assets
+          fetch-depth: 2
+
+      - name: Prepare for output and prevent permission issues
+        run: |
+          rm -rf README.md
+          rm -rf SUMMARY.md
+          mkdir -p ./public
+
+      - name: Pandoc conversion
+        uses: gbraad-actions/pandoc@main
+        with:
+          source: "*.md"
+          output-format: html
+          output-dir: public
+          template: assets/templates/resume-template.html 
+          extra-args: -f markdown-citations --standalone --section-divs
+
+      - name: Image files
+        run: |
+          cp ./gbraad-fc.png ./public/
+
+      - name: Generate PDF
+        uses: gbraad-actions/podman-action@main
+        with:
+          image: ghcr.io/gbraad/phantomjs:latest
+          entrypoint: /bin/bash
+          run: |
+            phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume.pdf 0.7
+            phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume-A5.pdf 0.7 A5
+            phantomjs ./assets/scripts/topdf.js ./public/recommendations.html ./public/recommendations.pdf 0.7
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: public
+          path: ./public
+
+      - name: Global settings
+        run: |
+          git config --global user.email "me+resume@gbraad.nl"
+          git config --global user.name  "Gerard Braad"
+
+      - name: Update profile to latest version
+        run: |
+          mkdir -p org/profile
+          cd org
+          git init --initial-branch=main
+          cp ../resume.md     ./profile/README.md
+          cp ../gbraad-fc.png ./profile/
+          git add .
+          git commit -m "Update to latest version"
+          git remote add profile https://gbraad:${{ secrets.PAT }}@github.com/gbraad-resume/.github
+          git push -f profile main
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+
+      - name: Update pages to latest version
+        run: |
+          mkdir -p site
+          cd site
+          git init --initial-branch=main
+          cp ../public/* .
+          echo "resume.gbraad.nl" > CNAME
+          git add .
+          git commit -m "Update to latest version"
+          git remote add pages https://gbraad:${{ secrets.PAT }}@github.com/gbraad-resume/gbraad-resume.github.io
+          git push -f pages main
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}
