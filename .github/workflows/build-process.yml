@@ -22,7 +22,6 @@ jobs:
       - name: Prepare for output and prevent permission issues
         run: |
           rm -rf README.md
-          rm -rf SUMMARY.md
           mkdir -p ./public
 
       - name: Pandoc conversion

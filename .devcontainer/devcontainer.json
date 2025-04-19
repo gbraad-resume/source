@@ -1,0 +1,12 @@
+{
+    "name": "Resume writing environment",
+    "image": "pandoc/latex:latest",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.Theme-TomorrowKit"
+            ]
+        }
+    }
+}
