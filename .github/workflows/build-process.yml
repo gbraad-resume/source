@@ -25,7 +25,7 @@ jobs:
           mkdir -p ./public
 
       - name: Pandoc conversion
-        uses: gbraad-actions/pandoc@main
+        uses: gbraad-actions/pandoc@node
         with:
           source: "*.md"
           output-format: html
