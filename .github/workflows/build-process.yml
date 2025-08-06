@@ -38,7 +38,7 @@ jobs:
           cp ./gbraad-fc.png ./public/
 
       - name: Generate PDF
-        uses: gbraad-actions/podman-action@node
+        uses: gbraad-actions/podman-action@main
         with:
           image: ghcr.io/gbraad/phantomjs:latest
           entrypoint: /bin/bash
@@ -84,4 +84,5 @@ jobs:
           git push -f pages main
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
+
 
