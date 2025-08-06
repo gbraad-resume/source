@@ -42,12 +42,10 @@ jobs:
         with:
           image: ghcr.io/gbraad/phantomjs:latest
           entrypoint: /bin/bash
-          args: 
-            - '-c'
-            - |
-              phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume.pdf 0.7
-              phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume-A5.pdf 0.7 A5
-              phantomjs ./assets/scripts/topdf.js ./public/recommendations.html ./public/recommendations.pdf 0.7
+          run: |
+            phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume.pdf 0.7
+            phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume-A5.pdf 0.7 A5
+            phantomjs ./assets/scripts/topdf.js ./public/recommendations.html ./public/recommendations.pdf 0.7
 
       - uses: actions/upload-artifact@v4
         with:
@@ -86,3 +84,4 @@ jobs:
           git push -f pages main
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
+
