@@ -63,17 +63,31 @@
 ## Manager, Software Engineering and Principal Software Engineer 
   * [Red Hat][employer redhat], January 2017 - present
 
-    Working on tools to improve the workflow for development with containers,
-    OpenShift, and Kubernetes using native virtualization on Linux, macOS and
-    Windows.
-    
-    Managing the teams for:
-    * CRC runs Containers (productized as OpenShift Local) which brings a minimal OpenShift Container Platform 4 cluster and Podman container runtime to your local computer for development purposes.
-    * JKube; Build and Deploy Java applications on Kubernetes
+    Leading platform engineering teams developing local container development tools
+    for OpenShift, Kubernetes, and Podman across Linux, macOS, and Windows.
+    Architected innovations in developer experience that have been adopted across
+    the industry.
 
-    Activities
-    * Work with product managers and customers to determine the priority of new features.
-    * Manage a team of software engineers through coaching, training, and mentoring team members, overseeing code reviews, leading technical planning, and running other important team meetings.
+    Key Achievements:
+    * Designed and led CRC (CodeReady Containers) rewrite, now productized as OpenShift Local,
+      enabling local OpenShift 4 development environments
+    * Created "preflights" architecture pattern: proactive system validation and automatic
+      issue resolution before environment startup - later adopted by Minikube
+    * Contributed to Minikube codebase while developing Minishift (OpenShift local development)
+    * Led Podman Desktop platform engineering work, focusing on cross-platform container
+      development tools
+    * Architected secure AI agent execution environments using microvm isolation
+    * Designed and implemented cross-platform virtualization stack supporting native
+      virtualization on Linux, macOS, and Windows
+    * Pioneered internal dogfooding of macadam for development workflow improvements
+    * Managed engineering teams for CRC/OpenShift Local and JKube (Java on Kubernetes)
+    
+    Management Activities:
+    * Led 108+ consecutive monthly releases across multiple products
+    * Collaborated with product managers and customers to prioritize features and roadmap
+    * Coached and mentored engineering teams through technical planning, code reviews, and
+      architecture decisions
+    * Scaled teams from individual contributors to distributed engineering organizations
 
 
 ## Technical Director

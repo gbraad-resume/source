@@ -5,8 +5,8 @@
 
 These recommendations were given by colleagues and/or co-workers, and are taken from my LinkedIn [http://linkedin.com/in/gbraad][linkedin profile].
 
-  * Technical Director _at UnitedStack_
-  :
+Technical Director _at UnitedStack_
+:
 
     > "Gerard is an expert in OpenStack and he has a wide vision in the cloud computing area. He has great passion in open source activities and contributes a lot to both the open source projects and the community. He is a full-stack engineer/consultant and he always gives effective solution to problems we meet. He is great leader of a productive team which gives good devops support to the whole company. He shows his excellent management skills in running an effective team. We work together on networking and storage in OpenStack environment and providing stable products to the customer. We also work on Linux kernel debugging and performance tunning in our projects. He helps us a lot in CI/CD to deliver our Ceph based product. I learn a lot from him and I admire his excellent insights to the whole OpenStack ecology."
     > - Weibing Zhang, worked indirectly for Gerard
@@ -24,8 +24,8 @@ These recommendations were given by colleagues and/or co-workers, and are taken 
     > - Han Chao, worked indirectly for Gerard
 
 
-  * F/OSS & IT Consultant
-  :  
+F/OSS & IT Consultant
+:
 
     > "I've known Gerard through the Open Source community for some time now. He is very professional, very conscientious, and would make a great asset to any employer."
     > - Thomas Cameron, was with Red Hat when working with Gerard
@@ -40,8 +40,8 @@ These recommendations were given by colleagues and/or co-workers, and are taken 
     > – Jon Phillips, Developer _was with Fabricatorz when working with Gerard_
 
 
-  * Mentor for APAC and member of the Ambassadors Steering Committee _at Fedora Project_
-  :  
+Mentor for APAC and member of the Ambassadors Steering Committee _at Fedora Project_
+:
 
     > "I know Gerard since around November 2009. We have collaborated in varies of sub-projects of Fedora. He is well organized and stayed focused for achieving his goals efficiently. Gerard demonstrated his seasoned technical background with his leadership of the Fedora-MIPS project. 
     > 
@@ -52,8 +52,8 @@ These recommendations were given by colleagues and/or co-workers, and are taken 
     > – Igor Soares, Fedora Ambassadors Steering Committee Member _worked directly with Gerard at Fedora Project_
 
 
-  * Technical Support Lead _at Neusoft_
-  :  
+Technical Support Lead _at Neusoft_
+:
 
     > "I got the pleasure to Work with Gerard at Neusoft, he is a person that loves to share the knowledge and is also willing to teach if you are willing to get tough. More than one time I had disagreements with him but that did not stop or harm our professional relationship. He is a person that can speak his mind and does make you understand his point of view and accepts other people opinion. He is open minded and always looks for the best interests of the project and the company. I know that any person or company should be satisfied with his performance."
     > – Alfredo Valdes, Test Coordinator _worked directly with Gerard at Neusoft_
@@ -78,15 +78,15 @@ These recommendations were given by colleagues and/or co-workers, and are taken 
     > – George Fahy, Localisation Engineer _worked directly with Gerard at Neusoft_
 
 
-  * Visuals and Technical Specialist _at Dance Concepts_
-  :  
+Visuals and Technical Specialist _at Dance Concepts_
+:
 
     > "Gerard great software engineer and talented geek, who's always honest en straightforward"
     > – Juan Carlos Villarroel, Graphic Designer _worked directly with Gerard at Dance Concepts_
 
 
-  * Software Engineer _at Ministry of Defence, Command & Control Support Centre (C2SC)_
-  :  
+Software Engineer _at Ministry of Defence, Command & Control Support Centre (C2SC)_
+:
 
     > "Gerard is an efficient sofware engineer with excellent knowledge of the .NET environment. He also has the ability and pragmatic attitude to deliver a finished product. Next to being an excellent software engineer Gerard also has vast knowledge on networks, GIS, mobile and hardware. It was a joy working with Gerard and hope we can work together again in the future."
     > – Leendert Versluijs, Software Architect _managed Gerard at Ministry of Defence, Command & Control Support Centre (C2SC)_
@@ -95,8 +95,8 @@ These recommendations were given by colleagues and/or co-workers, and are taken 
     > – Ronni van Olphen, .NET Software Engineer _worked directly with Gerard at Ministry of Defence, Command & Control Support Centre (C2SC)_
 
 
-  * IT Consultant / IT Manager _at SOGYO_
-  :  
+IT Consultant / IT Manager _at SOGYO_
+:
 
     > "Gerard is a skilled senior software engineer with both strong academic background and great practical experience. In the period that I have worked with Gerard, he not only came across as a very professionally competent person, but also a very friendly and compassionate co-worker. He impressed me with his creative way of thinking and the ability of adapting to new culture and environments. He can relate to people in many ways and on many levels. He has the quality of both a team player and a team leader. Moreover, he is eager for new knowledge and able to present creative ideas and communicate the benefits. He knows what he wants and is willing to work hard for that. I wish Gerard success in pursuing his career. He is a person with great potential. I would fully and whole-heartedly recommend Gerard to you, as he would be a tremendous asset in any company."
     > – Jeroen Teunisse, CEO/Owner _managed Gerard at SOGYO_
