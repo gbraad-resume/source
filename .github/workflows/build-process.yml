@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch resume source
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 2
       - name: Fetch documemt generation assets
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: 'gbraad-docs/document-generation-assets'
           path: assets
@@ -47,7 +47,7 @@ jobs:
             phantomjs ./assets/scripts/topdf.js ./public/resume.html ./public/resume-A5.pdf 0.7 A5
             phantomjs ./assets/scripts/topdf.js ./public/recommendations.html ./public/recommendations.pdf 0.7
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: public
           path: ./public
