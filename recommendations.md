@@ -9,26 +9,26 @@ Technical Director _at UnitedStack_
 :
 
     > "Gerard is an expert in OpenStack and he has a wide vision in the cloud computing area. He has great passion in open source activities and contributes a lot to both the open source projects and the community. He is a full-stack engineer/consultant and he always gives effective solution to problems we meet. He is great leader of a productive team which gives good devops support to the whole company. He shows his excellent management skills in running an effective team. We work together on networking and storage in OpenStack environment and providing stable products to the customer. We also work on Linux kernel debugging and performance tunning in our projects. He helps us a lot in CI/CD to deliver our Ceph based product. I learn a lot from him and I admire his excellent insights to the whole OpenStack ecology."
-    > - Weibing Zhang, worked indirectly for Gerard
+    > – Weibing Zhang, worked indirectly for Gerard
 
     > "Most people are pigeonholed into a single discipline. Gerard is one of those uncommon individuals who can create, teach, coach, and lead. Over the years I've had the pleasure of working with him on multiple open source projects and his ideas and contributions have been invaluable. His shown time and time again he understands how open source fits within traditional companies as well as how open business can be successful. And communities? He really gets it. If this all sounds too good to be true just take a look at the rest of his recommendations and you'll find that my extremely positive experiences with Gerard are not unique!"
-    > - Steve Milner, was with Red Hat when working with Gerard
+    > – Steve Milner, was with Red Hat when working with Gerard
     
     > "I met Gerard at the Fedora Release Party when he was giving a presentation. He impressed all of us by showing how he runs, ships, and manages apps on the cloud using Gitlab, Docker, Openstack, and Flatpak. Gerard is a humorous, easygoing, and open-mined man. As a full-stack developer, he has a good sense of problem solving, who always comes up with new ideas to get things done in a professional and brilliant way. I would highly recommend Gerard for any software development position."
-    > - Yuxiang Zhu, was with Red Hat when working with Gerard
+    > – Yuxiang Zhu, was with Red Hat when working with Gerard
     
     > "I met Gerard at an OpenStack presentation that he gave to my company as an consultant. Gerard is an amazing speaker, he`s good at warming up the conference`s atmosphere, gets to introduce OpenStack and its history humorously. Moreover, he`s technical skill was so impressive and creative. During the presentation he gave last time, we were enjoying the abundant technical contents.Above all, it was a wonderful experience in enjoying Gerard his own comprehension of OpenStack, we do hope to meet him next time asap."
-    > - Erik Qian, was with 21ViaNet (BlueCloud) when working with Gerard
+    > – Erik Qian, was with 21ViaNet (BlueCloud) when working with Gerard
 
     > "Gerard is an open-minded person who, to me, knows a wide range of heterogeneous technologies. He is also an inspirational Open Source mentor and expert. By his patient guidance, I have been enlightened to the Open Source way of doing my work. I would say I'm glad that I've worked with him and will have no hesitation to work with in the future."
-    > - Han Chao, worked indirectly for Gerard
+    > – Han Chao, worked indirectly for Gerard
 
 
 F/OSS & IT Consultant
 :
 
     > "I've known Gerard through the Open Source community for some time now. He is very professional, very conscientious, and would make a great asset to any employer."
-    > - Thomas Cameron, was with Red Hat when working with Gerard
+    > – Thomas Cameron, was with Red Hat when working with Gerard
 
     > "Gerard is very pro-active consultant. Lots of real work experience in the FOSS and IT industry in China. You can see his passion and profession in multiple aspect of his work. Excellent communication skill not only for technology engineers, but also business and marketing type of development will be easy for him."
     > – Alex Lau, China Linux Software Engineering Site Manager _was with Novell when working with Gerard_
