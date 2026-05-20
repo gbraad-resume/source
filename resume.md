@@ -20,10 +20,11 @@
 ## Background
 
   Gerard is an expert in software development practices and methodologies who is
-  experienced with Kubernetes, Linux, Containers, and AI. He has developed and
-  overseen projects and is considered by his peers as a real full-stack engineer.
-  With a focus on delivering quality and secure solutions, he has been able to
-  provide small to enterprise level customers solutions that met their needs. 
+  experienced with Kubernetes, Linux, Containers, Virtualization and AI. He has
+  developed and overseen projects and is considered by his peers as a real
+  full-stack engineer. With a focus on delivering quality and secure solutions,
+  he has been able to provide small to enterprise level customers solutions that
+  met their needs. 
 
   He is a multi-disciplinary with excellent technical skills in a wide-range of
   principles; from software delivery, Continuous Integration, Continuous
