@@ -6,6 +6,13 @@ generate() {
 	${CONTAINER_RUNTIME} pull ghcr.io/gbraad/docugen:latest
 	git clone https://github.com/gbraad-docs/document-generation-assets assets --depth 1
 	mkdir public
+	sed \
+		-e 's/^> \[!NOTE\]/> 🛈 **Note**/' \
+		-e 's/^> \[!TIP\]/> 💡 **Tip**/' \
+		-e 's/^> \[!IMPORTANT\]/> ❗ **Important**/' \
+		-e 's/^> \[!WARNING\]/> ⚠️ **Warning**/' \
+		-e 's/^> \[!CAUTION\]/> 🔥 **Caution**/' \
+		-i *.md
 	${CONTAINER_RUNTIME} run --rm -v ${PWD}:/workspace ghcr.io/gbraad/docugen:latest pandoc \
 		-t html5 -f markdown-citations --template assets/templates/resume-template.html --standalone --section-divs -o ./public/index.html ./index.md
 	${CONTAINER_RUNTIME} run --rm -v ${PWD}:/workspace ghcr.io/gbraad/docugen:latest pandoc \
