@@ -24,16 +24,6 @@ jobs:
           rm -rf README.md
           mkdir -p ./public
 
-      - name: Pre-process GitHub callouts
-        run: |
-          sed -i \
-            -e 's/^> \[!NOTE\]/> 🛈 **Note**/' \
-            -e 's/^> \[!TIP\]/> 💡 **Tip**/' \
-            -e 's/^> \[!IMPORTANT\]/> ❗ **Important**/' \
-            -e 's/^> \[!WARNING\]/> ⚠️ **Warning**/' \
-            -e 's/^> \[!CAUTION\]/> 🔥 **Caution**/' \
-            *.md
-
       - name: Pandoc conversion
         uses: gbraad-actions/pandoc@main
         with:
@@ -41,7 +31,7 @@ jobs:
           output-format: html
           output-dir: public
           template: assets/templates/resume-template.html 
-          extra-args: -f markdown-citations --standalone --section-divs
+          extra-args: -f markdown-citations --standalone --section-divs --lua-filter=assets/filters/callouts.lua
 
       - name: Image files
         run: |
