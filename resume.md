@@ -51,11 +51,11 @@
 ## Experience
 
   * IT-related
-    : 10+ years
+    : 20+ years
   * Management
-    : 5+ years
+    : 7+ years
   * Remote working
-    : 2+ years
+    : 10+ years
 
 # Employment History
 
