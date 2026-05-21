@@ -8,7 +8,7 @@
   * Recommendations  
     [HTML](recommendations.html), [Printable PDF](recommendations.pdf)
   * Source and GitHub organization  
-    [Source](https://github.com/gbraad-resume)
+    [https://github.com/gbraad-resume/](https://github.com/gbraad-resume)
   * Portfolio  
     My portfolio can be found on my [homepage](http://gbraad.nl/#portfolio)
 
