@@ -5,8 +5,8 @@
 
   * Resume  
     [HTML](resume.html), [Printable PDF](resume.pdf)
-  * Recommendations  
-    [HTML](recommendations.html), [Printable PDF](recommendations.pdf)
+  * Recommendations are given on my LinkedIn profile  
+    [https://linkedin.com/in/gbraad](https://linkedin.com/in/gbraad)
   * Source and GitHub organization  
     [https://github.com/gbraad-resume/](https://github.com/gbraad-resume)
   * Portfolio  
