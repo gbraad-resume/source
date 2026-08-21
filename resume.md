@@ -61,7 +61,7 @@
 
 
 ## Manager, Software Engineering and Principal Software Engineer 
-  * [Red Hat][employer redhat], January 2017 - present
+  * [Red Hat][employer redhat], January 2017 - July 2026
 
     Leading platform engineering teams developing local container development tools
     for OpenShift, Kubernetes, and Podman across Linux, macOS, and Windows.
