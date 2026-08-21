@@ -13,6 +13,9 @@
     My portfolio can be found on my [homepage](http://gbraad.nl/#portfolio)
 
 
+> [!IMPORTANT]
+> No visa/work permit sponsorship required. Fully equipped for cross-border remote work via EOR platforms (e.g., Remote.com).
+
 > [!NOTE]
 > The GitHub organization contains the source files and an automated process to publish both the webpage and PDF files. This gives an insight in how I think about automation.
 
