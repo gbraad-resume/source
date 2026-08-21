@@ -3,13 +3,13 @@
 
 ## Available versions
 
-  * Resume  
+  * **Resume**  
     [HTML](resume.html), [Printable PDF](resume.pdf)
-  * Recommendations are given on my LinkedIn profile  
+  * **Recommendations are given on my LinkedIn profile**  
     [https://linkedin.com/in/gbraad](https://linkedin.com/in/gbraad)
-  * Source and GitHub organization  
+  * **Source and GitHub organization**  
     [https://github.com/gbraad-resume/](https://github.com/gbraad-resume)
-  * Portfolio  
+  * **Portfolio**  
     My portfolio can be found on my [homepage](http://gbraad.nl/#portfolio)
 
 
